@@ -50,6 +50,7 @@ main {
 img {
   grid-area: image;
   border-radius: 50%
+  
 }
 
 #contact {
@@ -63,20 +64,26 @@ img {
 #name {
   grid-area: name;
   background-color: lightgray;
-  padding: 10px 0 10px 0
+  padding: 10px 0 10px 10px;
+  margin: 0
 }
 
 #occupation {
   grid-area: occupation;
   background-color: lightgray;
+  padding: 0 0 0 10px
+  
 }
 
 #brand {
   grid-area: brand;
   background-color: lightgray;
+  padding: 0 0 0 10px
 }
 
 #offer {
   grid-area: offer;
   background-color: lightgray;
+  padding: 0 0 0 10px
 }
+
