@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background-color: gray;
+  background-color: teal;
 /* Use a system font, if none are available use an available sans-sarif   font */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -29,8 +29,9 @@ body {
 
 main {
   display: grid;
+  width: 450px;
   background-color: white;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 35% 65%;
   grid-template-rows: auto auto auto auto;
   grid-template-areas:
   "status name"
@@ -42,32 +43,40 @@ main {
   "contact offer"
   
 }
- #status {
-   grid-area: status;
- }
+#status {
+  grid-area: status;
+}
 
- img {
-   grid-area: image;
-   border-radius: 50%
+img {
+  grid-area: image;
+  border-radius: 50%
+}
 
- }
+#contact {
+  grid-area: contact;
+  background: green;
+  display: grid;
+  align-items: center;
+    
+}
 
- #contact {
-   grid-area: contact;
- }
+#name {
+  grid-area: name;
+  background-color: lightgray;
+  padding: 10px 0 10px 0
+}
 
- #name: {
-   grid area: name;
- }
- #occupation {
-   grid-area: occupation;
-   
- }
+#occupation {
+  grid-area: occupation;
+  background-color: lightgray;
+}
 
- #brand {
-   grid-area: brand;
- }
+#brand {
+  grid-area: brand;
+  background-color: lightgray;
+}
 
- #offer {
-   grid-area: offer;
- }
+#offer {
+  grid-area: offer;
+  background-color: lightgray;
+}
