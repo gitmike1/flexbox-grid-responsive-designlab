@@ -48,7 +48,7 @@ main {
 
  img {
    grid-area: image;
-   
+   border-radius: 50%
 
  }
 
@@ -61,6 +61,7 @@ main {
  }
  #occupation {
    grid-area: occupation;
+   
  }
 
  #brand {
